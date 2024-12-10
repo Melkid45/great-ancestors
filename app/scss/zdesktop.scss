@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (max-width: 1920px) {
     html{
         font-size: calc(100vw / 1440);
     }
@@ -1201,8 +1201,7 @@
 
     .main{
         width: 100%;
-        padding: 64rem 0 343rem 0;
-        margin-top: 80rem;
+        padding: 144rem 0 343rem 0;
         position: relative;
         &__back{
             position: absolute;
@@ -1263,7 +1262,136 @@
             }
         }
     }
-
+    .services{
+        background: #F8F8F8;
+        padding-top: 124rem;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        &__back{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 0;
+            height: 2200rem;
+            opacity: 0.15;
+        }
+        &__letter{
+            position: absolute;
+            bottom: -94rem;
+            left: 0;
+            width: 100%;
+            height: 203rem;
+            z-index: 2;
+        }
+        &__back-diff{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 0;
+            height: 100%;
+        }
+        &__body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 48rem;
+            position: relative;
+            z-index: 1;
+            &-title{
+                font-family: var(--old-title);
+                font-size: 48rem;
+                font-weight: 400;
+                line-height: 42rem;
+                letter-spacing: 0.02em;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #97824D;
+                text-transform: uppercase;
+            }
+            &-block{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 24rem;
+                &-item{
+                    position: relative;
+                    width: 658rem;
+                    height: 386rem;
+                    padding-left: 64rem;
+                    align-items: center;
+                    display: flex;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 0;
+                    }
+                    &-text{
+                        position: relative;
+                        z-index: 1;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16rem;
+                        h3{
+                            font-family: var(--old-text);
+                            font-size: 32rem;
+                            font-weight: 400;
+                            line-height: 42rem;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #97824D;
+                            text-transform: uppercase;
+                        }
+                        p{
+                            font-family: var(--regular);
+                            font-size: 16rem;
+                            font-weight: 400;
+                            line-height: 24rem;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #5C5C5C;
+                        }
+                        a{
+                            margin-top: 16rem;
+                            width: 230rem;
+                            height: 60rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 10rem;
+                            background: linear-gradient(90deg, #A04444 0%, #A24040 100%);
+                            border-radius: 15rem;
+                            box-shadow: 0rem 0rem 24rem 2rem #B46D6D80;
+                            font-family: var(--old-text);
+                            font-size: 16rem;
+                            font-weight: 400;
+                            line-height: 24rem;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #F4F0E6;
+                            text-transform: uppercase;
+                            svg{
+                                width: 12rem;
+                                height: 12rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .services__diff{
+        padding: 124rem 0 144rem 0;
+        overflow: visible;
+    }
     .portfolio{
         width: 100%;
         padding: 124rem 0;
