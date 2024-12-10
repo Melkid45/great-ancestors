@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css"
+        integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="scss/style.min.css">
+    <title>Великие предки</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <nav class="header__body-menu">
+                    <ul class="header__body-menu-list">
+                        <li>
+                            <a href="">Главная</a>
+                        </li>
+                        <li>
+                            <a href="">Блог</a>
+                        </li>
+                        <li>
+                            <a href="">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="">Проекты</a>
+                        </li>
+                        <li>
+                            <a href="">О компании</a>
+                        </li>
+                        <li>
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header__body-logo" href="">
+                    <img src="images/dist/header__logo.webp" alt="">
+                </a>
+                <div class="header__body-contact">
+                    <a class="header__body-contact-item" href="mailto:contact@velikie.org">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M19.5996 17.7998C19.5996 17.9216 19.5762 18.0368 19.5426 18.1466L14.1996 12.3998L19.5996 8.1998V17.7998ZM3.73321 18.9674L9.1476 13.1978L11.1996 14.7488L13.1628 13.1882L18.666 18.9674C18.5802 18.9872 3.81901 18.9872 3.73321 18.9674ZM2.79961 17.7998V8.1998L8.19961 12.3998L2.85661 18.1466C2.82301 18.0368 2.79961 17.9216 2.79961 17.7998ZM18.9996 6.9998L11.1996 12.9998L3.39961 6.9998H18.9996ZM18.3996 5.7998H3.99961C2.67421 5.7998 1.59961 6.8744 1.59961 8.1998V17.7998C1.59961 19.1252 2.67421 20.1998 3.99961 20.1998H18.3996C19.725 20.1998 20.7996 19.1252 20.7996 17.7998V8.1998C20.7996 6.8744 19.725 5.7998 18.3996 5.7998Z"
+                                fill="#5C5C5C" />
+                        </svg>
+                        <span>contact@velikie.org</span>
+                    </a>
+                    <a class="header__body-contact-item" href="tel:+7(499)490-27-49">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.979 16.431C18.979 16.683 18.923 16.942 18.804 17.194C18.685 17.446 18.531 17.684 18.328 17.908C17.985 18.286 17.607 18.559 17.18 18.734C16.76 18.909 16.305 19 15.815 19C15.101 19 14.338 18.832 13.533 18.489C12.728 18.146 11.923 17.684 11.125 17.103C10.32 16.515 9.557 15.864 8.829 15.143C8.108 14.415 7.457 13.652 6.876 12.854C6.302 12.056 5.84 11.258 5.504 10.467C5.168 9.669 5 8.906 5 8.178C5 7.702 5.084 7.247 5.252 6.827C5.42 6.4 5.686 6.008 6.057 5.658C6.505 5.217 6.995 5 7.513 5C7.709 5 7.905 5.042 8.08 5.126C8.262 5.21 8.423 5.336 8.549 5.518L10.173 7.807C10.299 7.982 10.39 8.143 10.453 8.297C10.516 8.444 10.551 8.591 10.551 8.724C10.551 8.892 10.502 9.06 10.404 9.221C10.313 9.382 10.18 9.55 10.012 9.718L9.48 10.271C9.403 10.348 9.368 10.439 9.368 10.551C9.368 10.607 9.375 10.656 9.389 10.712C9.41 10.768 9.431 10.81 9.445 10.852C9.571 11.083 9.788 11.384 10.096 11.748C10.411 12.112 10.747 12.483 11.111 12.854C11.489 13.225 11.853 13.568 12.224 13.883C12.588 14.191 12.889 14.401 13.127 14.527C13.162 14.541 13.204 14.562 13.253 14.583C13.309 14.604 13.365 14.611 13.428 14.611C13.547 14.611 13.638 14.569 13.715 14.492L14.247 13.967C14.422 13.792 14.59 13.659 14.751 13.575C14.912 13.477 15.073 13.428 15.248 13.428C15.381 13.428 15.521 13.456 15.675 13.519C15.829 13.582 15.99 13.673 16.165 13.792L18.482 15.437C18.664 15.563 18.79 15.71 18.867 15.885C18.937 16.06 18.979 16.235 18.979 16.431Z"
+                                stroke="#5C5C5C" stroke-miterlimit="10" />
+                            <path
+                                d="M16.5496 9.9002C16.5496 9.4802 16.2206 8.8362 15.7306 8.3112C15.2826 7.8282 14.6876 7.4502 14.0996 7.4502"
+                                stroke="#5C5C5C" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M18.9996 9.9C18.9996 7.191 16.8086 5 14.0996 5" stroke="#5C5C5C"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span>+7(499)490-27-49</span>
+                    </a>
+                    <a class="header__body-contact-item" href="https://t.me/velikie_predki">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_394_1387)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12.43 8.85893C11.2628 9.3444 8.93014 10.3492 5.43189 11.8733C4.86383 12.0992 4.56626 12.3202 4.53917 12.5363C4.49339 12.9015 4.95071 13.0453 5.57347 13.2411C5.65818 13.2678 5.74595 13.2954 5.83594 13.3246C6.44864 13.5238 7.27283 13.7568 7.70129 13.766C8.08994 13.7744 8.52373 13.6142 9.00264 13.2853C12.2712 11.079 13.9584 9.96381 14.0643 9.93977C14.139 9.92281 14.2426 9.90148 14.3128 9.96385C14.3829 10.0262 14.376 10.1443 14.3686 10.176C14.3233 10.3691 12.5281 12.0381 11.5991 12.9018C11.3095 13.171 11.1041 13.362 11.0621 13.4056C10.968 13.5033 10.8721 13.5958 10.78 13.6846C10.2108 14.2333 9.78391 14.6448 10.8036 15.3168C11.2936 15.6397 11.6858 15.9067 12.077 16.1731C12.5042 16.4641 12.9303 16.7543 13.4816 17.1157C13.6221 17.2077 13.7562 17.3034 13.8869 17.3965C14.3841 17.751 14.8307 18.0694 15.3826 18.0186C15.7032 17.9891 16.0345 17.6876 16.2027 16.7884C16.6002 14.6631 17.3816 10.0585 17.5622 8.16097C17.578 7.99473 17.5581 7.78197 17.5422 7.68857C17.5262 7.59518 17.4928 7.46211 17.3714 7.3636C17.2276 7.24694 17.0056 7.22234 16.9064 7.22408C16.455 7.23203 15.7626 7.47282 12.43 8.85893Z"
+                                    fill="#5C5C5C" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_394_1387">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <span>@velikie_predki</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <img class="about__back" src="images/dist/about__back.webp" alt="">
+        <img class="about__letter" src="images/dist/letter.webp" alt="">
+        <div class="container">
+            <div class="about__body">
+                <h1>
+                    о КОМПАНИИ
+                </h1>
+                <div class="about__body-block">
+                    <div class="about__body-block-info">
+                        <div class="about__body-block-info-lead">
+                            <img src="images/dist/nikola.webp" alt="">
+                            <span>Николай Андреевич Курпан</span>
+                            <p>Основатель и руководитель проекта</p>
+                        </div>
+                        <div class="about__body-block-info-desc">
+                            <svg class="about__body-block-info-desc-bot" width="30" height="26" viewBox="0 0 30 26"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M27.3367 2.24128C29.0696 4.32098 30 6.65351 30 10.4346C30 17.0881 25.8662 23.0515 19.8547 26L18.3523 23.3804C23.9633 19.951 25.0603 15.5008 25.4977 12.6949C24.5942 13.2234 23.4115 13.4078 22.2523 13.2861C19.2171 12.9686 16.8246 10.1532 16.8246 6.6535C16.8246 4.88888 17.445 3.19654 18.5494 1.94876C19.6537 0.70099 21.1515 -7.73561e-07 22.7133 -6.37028e-07C24.5185 -4.79205e-07 26.2447 0.931492 27.3367 2.24128ZM10.512 2.24128C12.245 4.32097 13.1754 6.65351 13.1754 10.4346C13.1754 17.0881 9.04156 23.0515 3.03012 26L1.52768 23.3804C7.13869 19.951 8.23566 15.5008 8.6731 12.6949C7.76962 13.2234 6.58684 13.4078 5.42763 13.2861C2.39246 12.9686 1.38537e-06 10.1532 1.69132e-06 6.6535C1.84559e-06 4.88888 0.620407 3.19654 1.72474 1.94876C2.82907 0.700988 4.32686 -2.24442e-06 5.88862 -2.10788e-06C7.69391 -1.95006e-06 9.42011 0.93149 10.512 2.24128Z"
+                                    fill="#A4905D" />
+                            </svg>
+                            <svg class="about__body-block-info-desc-top" width="30" height="26" viewBox="0 0 30 26"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.66334 23.7587C0.930403 21.679 0 19.3465 0 15.5654C0 8.9119 4.13381 2.94845 10.1453 0L11.6477 2.61958C6.03668 6.04899 4.93971 10.4992 4.50227 13.3051C5.40575 12.7766 6.58853 12.5922 7.74774 12.7139C10.7829 13.0314 13.1754 15.8468 13.1754 19.3465C13.1754 21.1111 12.555 22.8035 11.4506 24.0512C10.3463 25.299 8.84851 26 7.28675 26C5.48146 26 3.75526 25.0685 2.66334 23.7587ZM19.488 23.7587C17.755 21.679 16.8246 19.3465 16.8246 15.5654C16.8246 8.9119 20.9584 2.94845 26.9699 0L28.4723 2.61958C22.8613 6.04899 21.7643 10.4992 21.3269 13.3051C22.2304 12.7766 23.4132 12.5922 24.5724 12.7139C27.6075 13.0314 30 15.8468 30 19.3465C30 21.1111 29.3796 22.8035 28.2753 24.0512C27.1709 25.299 25.6731 26 24.1114 26C22.3061 26 20.5799 25.0685 19.488 23.7587Z"
+                                    fill="#A4905D" />
+                            </svg>
+                            <p>
+                                Я начал системное изучение своей родословной в 2014 году. Последовательно раскрывал
+                                историю
+                                своей семьи, которая не была известна и которая оказалась очень разнообразной во всех
+                                смыслах. Много сословий, вероисповеданий, широченная география — от Берлина до Уфы, от
+                                Архангельска до Николаева. А самые глубокие ветки моих предков уходят аж в XV век.
+                                <br><br>
+                                За время собственных исследований я объехал европейскую Россию, Беларусь и Украину,
+                                поработал лично более чем в 20 архивах только лишь над своей собственной историей.
+                                Поэтому,
+                                когда в 2021 году принял решение начать помогать другим, у меня уже был большой багаж
+                                знаний
+                                и практические наработки.
+                                <br><br>
+                                Имея за плечами организаторский и IT-опыт, полученные от другой деятельности, а также
+                                стойкую уверенность, что мы должны не только пользоваться тем, что создано до нас, но и
+                                совершенствовать это, привнося новое, почти сразу стало очевидным, что собрав коллектив
+                                единомышленников, я смог бы принести миру значительно больше пользы, чем в одиночку!
+                            </p>
+                        </div>
+                    </div>
+                    <p class="about__body-block-desc">
+                        Наша компания начала формироваться с 2022 года, занимаясь не только частными исследованиями
+                        широкого
+                        профиля, но и общественно-значимыми проектами, позитивно воспринятыми как заказчиками, так и
+                        генеалогическим сообществом и даже архивами (о чем свидетельствует общественная дискуссия,
+                        количество участников наших проектов и благодарности из архивов).
+                        <br><br>
+                        На сегодня мы – команда исследователей, включающая в себя специалистов с профильным
+                        образованием,
+                        много десятилетним стажем и большой любовью к истории и архивистике. И мы будем счастливы
+                        заняться
+                        исследованием именно Вашей родословной, биографии Вашего предка, интересующего Вас сооружения,
+                        земельного участка, сбором документов по интересующей Вас теме или чем угодно другим, связанным
+                        с
+                        исследованием истории!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <img class="review__letter" src="images/dist/letter.webp" alt="">
+        <div class="container">
+            <div class="review__body">
+                <h2>
+                    Отзывы
+                </h2>
+                <div id="review" class="splide" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__arrows">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.5303 6.53033C14.8232 6.23744 14.8232 5.76256 14.5303 5.46967L9.75736 0.6967C9.46447 0.403807 8.98959 0.403807 8.6967 0.6967C8.40381 0.989593 8.40381 1.46447 8.6967 1.75736L12.9393 6L8.6967 10.2426C8.40381 10.5355 8.40381 11.0104 8.6967 11.3033C8.98959 11.5962 9.46447 11.5962 9.75736 11.3033L14.5303 6.53033ZM-6.55671e-08 6.75L14 6.75L14 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.5303 6.53033C14.8232 6.23744 14.8232 5.76256 14.5303 5.46967L9.75736 0.6967C9.46447 0.403807 8.98959 0.403807 8.6967 0.6967C8.40381 0.989593 8.40381 1.46447 8.6967 1.75736L12.9393 6L8.6967 10.2426C8.40381 10.5355 8.40381 11.0104 8.6967 11.3033C8.98959 11.5962 9.46447 11.5962 9.75736 11.3033L14.5303 6.53033ZM-6.55671e-08 6.75L14 6.75L14 5.25L6.55671e-08 5.25L-6.55671e-08 6.75Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="splide__slide-top">
+                                    <img src="images/dist/user.webp" alt="">
+                                    <div class="splide__slide-top-info">
+                                        <span>Антон Антонов</span>
+                                        <p>13 августа 2024, Санкт-Петербург</p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide-desc">
+                                    <span>
+                                        Точечное исследование
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                                <div class="splide__slide-images">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide-top">
+                                    <img src="images/dist/user.webp" alt="">
+                                    <div class="splide__slide-top-info">
+                                        <span>Антон Антонов</span>
+                                        <p>13 августа 2024, Санкт-Петербург</p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide-desc">
+                                    <span>
+                                        Точечное исследование
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                                <div class="splide__slide-images">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide-top">
+                                    <img src="images/dist/user.webp" alt="">
+                                    <div class="splide__slide-top-info">
+                                        <span>Антон Антонов</span>
+                                        <p>13 августа 2024, Санкт-Петербург</p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide-desc">
+                                    <span>
+                                        Точечное исследование
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide-top">
+                                    <img src="images/dist/user.webp" alt="">
+                                    <div class="splide__slide-top-info">
+                                        <span>Антон Антонов</span>
+                                        <p>13 августа 2024, Санкт-Петербург</p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide-desc">
+                                    <span>
+                                        Точечное исследование
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                                <div class="splide__slide-images">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide-top">
+                                    <img src="images/dist/user.webp" alt="">
+                                    <div class="splide__slide-top-info">
+                                        <span>Антон Антонов</span>
+                                        <p>13 августа 2024, Санкт-Петербург</p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide-desc">
+                                    <span>
+                                        Точечное исследование
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                                <div class="splide__slide-images">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                    <img src="images/dist/rev__img.webp" alt="">
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="splide__slide-top">
+                                    <img src="images/dist/user.webp" alt="">
+                                    <div class="splide__slide-top-info">
+                                        <span>Антон Антонов</span>
+                                        <p>13 августа 2024, Санкт-Петербург</p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide-desc">
+                                    <span>
+                                        Точечное исследование
+                                    </span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback diff__feedback">
+        <img class="feedback__back" src="images/dist/advantages__back.webp" alt="">
+        <div class="container">
+            <div class="feedback__body">
+                <img class="feedback__body-back" src="images/dist/feedback__back.webp" alt="">
+                <img class="feedback__body-img" src="images/dist/feedback__img.webp" alt="">
+                <div class="feedback__body-block">
+                    <div class="feedback__body-block-info">
+                        <h2>Взыскать консультацію</h2>
+                        <p>Столоначальникъ нашъ поспѣшитъ позвонить Вамъ, дабы представить извѣстія объ услугахъ нашихъ
+                            и удовлетворить всякое Ваше запрошеніе</p>
+                    </div>
+                    <form action="" method="post" class="feedback__body-block-form">
+                        <div class="feedback__body-block-form-wrap">
+                            <input placeholder="Имя" type="text">
+                            <input placeholder="Телефон" type="tel">
+                        </div>
+                        <input class="feedback__body-block-form-email" placeholder="E-mail" type="email">
+                        <button class="feedback__body-block-form-btn">
+                            Подать прошеніе
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img src="images/dist/advantages__back.webp" alt="" class="footer__back">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__body-start">
+                    <a class="footer__body-start-logo" href="">
+                        <img src="images/dist/footer__logo.webp" alt="">
+                    </a>
+                    <a class="footer__body-start-btn" href="">
+                        Оставить заявку
+                    </a>
+                </div>
+                <nav class="footer__body-menu">
+                    <span>Услуги</span>
+                    <ul class="footer__body-menu-list">
+                        <li>
+                            <a href="">
+                                Генеалогическое (биографическое) исследование
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Репатриация
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Точечное исследование
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Прочее
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="footer__body-menu">
+                    <span>Компания</span>
+                    <ul class="footer__body-menu-list">
+                        <li>
+                            <a href="">
+                                О компании
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Блог
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Проекты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__body-contact">
+                    <span>Контакты</span>
+                    <div class="footer__body-contact-items">
+                        <div class="footer__body-contact-items-item">
+                            <p>Номер для связи:</p>
+                            <a href="">+7 (928) 708-11-60</a>
+                        </div>
+                        <div class="footer__body-contact-items-item">
+                            <p>Почта:</p>
+                            <a href="">contact@velikie.org</a>
+                        </div>
+                        <div class="footer__body-contact-items-item">
+                            <p>Соц. сети:</p>
+                            <a href="">Telegram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__soft">
+                <span>© 201X—2024 «Великие предки»</span>
+                <span>Оферта | Политика конфиденциальности</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"
+        integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var splide;
+        splide = new Splide("#review", {
+            rewind: !0,
+            pagination: !1,
+            autoplay: !0,
+        }).mount()
+    </script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

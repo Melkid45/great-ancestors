@@ -1,0 +1,131 @@
+.about{
+    width: 100%;
+    position: relative;
+    padding: 144px 0 0 0;
+    &__back{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 780px;
+        z-index: 0;
+    }
+    &__letter{
+        width: 100%;
+        position: absolute;
+        top: 686px;
+        left: 0;
+        height: 203px;
+        z-index: 1;
+    }
+    &__body{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        h1{
+            font-family: var(--old-title);
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 42px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #97824D;
+            text-transform: uppercase;
+        }
+        &-block{
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+            background: #fff;
+            padding: 64px;
+            border: 1px solid #97824D;
+            border-radius: 15px;
+            &-info{
+                display: flex;
+                gap: 24px;
+                &-lead{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    img{
+                        width: 317px;
+                        height: 370px;
+                        box-shadow: 0px 4px 4px 0px #00000040;
+                        border-radius: 90px 15px 15px 15px;
+                    }
+                    span{
+                        font-family: var(--old-text);
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 32px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #97824D;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        font-family: var(--regular);
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 18px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #5C5C5C;
+                    }
+                }
+                &-desc{
+                    width: 871px;
+                    padding: 74px 78px;
+                    background: transparent;
+                    border: 1px solid #A4905D;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    p{
+                        font-family: var(--regular);
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: justified;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #5C5C5C;
+                    }
+                    &-bot{
+                        position: absolute;
+                        width: 30px;
+                        height: 26px;
+                        bottom: 24px;
+                        left: 24px;
+                    }
+                    &-top{
+                        position: absolute;
+                        width: 30px;
+                        height: 26px;
+                        top: 24px;
+                        right: 24px;
+                    }
+                }
+            }
+            &-desc{
+                font-family: var(--regular);
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: justified;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #5C5C5C;
+            }
+        }
+    }
+}
