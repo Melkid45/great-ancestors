@@ -15,7 +15,7 @@
     <header class="header">
         <div class="container">
             <div class="header__body">
-                <nav class="header__body-menu desk">
+                <nav class="header__body-menu desk middle__none">
                     <ul class="header__body-menu-list">
                         <li>
                             <a href="">Главная</a>
@@ -37,7 +37,15 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="header__body-burger mob">
+                <div class="header__body-burger burger__middle mob middle">
+                    <div class="header__body-burger-wrap">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>Меню</p>
+                </div>
+                <div class="header__body-burger mob middle__none burger__mob">
                     <div class="header__body-burger-wrap">
                         <span></span>
                         <span></span>
@@ -49,13 +57,13 @@
                     <img src="images/dist/header__logo.webp" alt="">
                 </a>
                 <div class="header__body-contact">
-                    <a class="header__body-contact-item desk" href="mailto:contact@velikie.org">
+                    <a class="header__body-contact-item desk middle__none" href="mailto:contact@velikie.org">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5996 17.7998C19.5996 17.9216 19.5762 18.0368 19.5426 18.1466L14.1996 12.3998L19.5996 8.1998V17.7998ZM3.73321 18.9674L9.1476 13.1978L11.1996 14.7488L13.1628 13.1882L18.666 18.9674C18.5802 18.9872 3.81901 18.9872 3.73321 18.9674ZM2.79961 17.7998V8.1998L8.19961 12.3998L2.85661 18.1466C2.82301 18.0368 2.79961 17.9216 2.79961 17.7998ZM18.9996 6.9998L11.1996 12.9998L3.39961 6.9998H18.9996ZM18.3996 5.7998H3.99961C2.67421 5.7998 1.59961 6.8744 1.59961 8.1998V17.7998C1.59961 19.1252 2.67421 20.1998 3.99961 20.1998H18.3996C19.725 20.1998 20.7996 19.1252 20.7996 17.7998V8.1998C20.7996 6.8744 19.725 5.7998 18.3996 5.7998Z" fill="#5C5C5C"/>
                         </svg>
                         <span>contact@velikie.org</span>                        
                     </a>
-                    <a class="header__body-contact-item desk" href="tel:+7(499)490-27-49">
+                    <a class="header__body-contact-item desk middle__none" href="tel:+7(499)490-27-49">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.979 16.431C18.979 16.683 18.923 16.942 18.804 17.194C18.685 17.446 18.531 17.684 18.328 17.908C17.985 18.286 17.607 18.559 17.18 18.734C16.76 18.909 16.305 19 15.815 19C15.101 19 14.338 18.832 13.533 18.489C12.728 18.146 11.923 17.684 11.125 17.103C10.32 16.515 9.557 15.864 8.829 15.143C8.108 14.415 7.457 13.652 6.876 12.854C6.302 12.056 5.84 11.258 5.504 10.467C5.168 9.669 5 8.906 5 8.178C5 7.702 5.084 7.247 5.252 6.827C5.42 6.4 5.686 6.008 6.057 5.658C6.505 5.217 6.995 5 7.513 5C7.709 5 7.905 5.042 8.08 5.126C8.262 5.21 8.423 5.336 8.549 5.518L10.173 7.807C10.299 7.982 10.39 8.143 10.453 8.297C10.516 8.444 10.551 8.591 10.551 8.724C10.551 8.892 10.502 9.06 10.404 9.221C10.313 9.382 10.18 9.55 10.012 9.718L9.48 10.271C9.403 10.348 9.368 10.439 9.368 10.551C9.368 10.607 9.375 10.656 9.389 10.712C9.41 10.768 9.431 10.81 9.445 10.852C9.571 11.083 9.788 11.384 10.096 11.748C10.411 12.112 10.747 12.483 11.111 12.854C11.489 13.225 11.853 13.568 12.224 13.883C12.588 14.191 12.889 14.401 13.127 14.527C13.162 14.541 13.204 14.562 13.253 14.583C13.309 14.604 13.365 14.611 13.428 14.611C13.547 14.611 13.638 14.569 13.715 14.492L14.247 13.967C14.422 13.792 14.59 13.659 14.751 13.575C14.912 13.477 15.073 13.428 15.248 13.428C15.381 13.428 15.521 13.456 15.675 13.519C15.829 13.582 15.99 13.673 16.165 13.792L18.482 15.437C18.664 15.563 18.79 15.71 18.867 15.885C18.937 16.06 18.979 16.235 18.979 16.431Z" stroke="#5C5C5C" stroke-miterlimit="10"/>
                             <path d="M16.5496 9.9002C16.5496 9.4802 16.2206 8.8362 15.7306 8.3112C15.2826 7.8282 14.6876 7.4502 14.0996 7.4502" stroke="#5C5C5C" stroke-linecap="round" stroke-linejoin="round"/>
@@ -152,6 +160,85 @@
                 <div class="header__mobile-soft">
                     <span>© 201X—2024 «Великие предки»</span>
                     <span>Оферта  |  Политика конфиденциальности</span>
+                </div>
+            </div>
+            <div class="header__mobile header__middle middle">
+                <div class="header__body-burger burger__menu burger__middle active">
+                    <div class="header__body-burger-wrap">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>Закрыть</p>
+                </div>
+                <div class="header__mobile-body">
+                    <div class="header__mobile-body-start">
+                        <a class="header__mobile-body-start-logo" href="">
+                            <img src="images/dist/footer__logo.webp" alt="">
+                        </a>
+                        <a class="header__mobile-body-start-btn" href="">
+                            Подать прошеніе
+                        </a>
+                    </div>
+                    <div class="header__mobile-body-contact">
+                        <div class="header__mobile-body-contact-items">
+                            <div class="header__mobile-body-contact-items-item">
+                                <p>Номер для связи:</p>
+                                <a href="">+7 (928) 708-11-60</a>
+                            </div>
+                            <div class="header__mobile-body-contact-items-item">
+                                <p>Почта:</p>
+                                <a href="">contact@velikie.org</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__mobile-body-wrap">
+                        <nav class="header__mobile-body-menu">
+                            <span>Услуги</span>
+                            <ul class="header__mobile-body-menu-list">
+                                <li>
+                                    <a href="">
+                                        Генеалогическое (биографическое) исследование
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Репатриация
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Точечное исследование
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Прочее
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav class="header__mobile-body-menu">
+                            <span>Компания</span>
+                            <ul class="header__mobile-body-menu-list row">
+                                <li>
+                                    <a href="">
+                                        О компании
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Блог
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Проекты
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
