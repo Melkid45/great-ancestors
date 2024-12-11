@@ -6528,7 +6528,7 @@ a {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        gap: 32rem
+        gap: 16rem
     }
 
     .header__mobile-soft {
@@ -6568,7 +6568,7 @@ a {
     }
 
     .header__mobile-body {
-        padding-top: 19rem;
+        padding-top: 10rem;
         width: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -6583,7 +6583,7 @@ a {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        gap: 32rem
+        gap: 16rem
     }
 
     .header__mobile-body-start {
