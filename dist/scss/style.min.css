@@ -121,7 +121,6 @@ a {
 }
 
 body {
-    max-width: 1920px;
     background-color: #f4f0e6;
     font-family: var(--regular);
     margin: 0 auto
@@ -2516,7 +2515,6 @@ a {
     }
 
     body {
-        max-width: 1920rem;
         background-color: #f4f0e6;
         font-family: var(--regular);
         margin: 0 auto
