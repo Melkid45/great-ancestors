@@ -1368,7 +1368,8 @@ body {
     -webkit-text-decoration-skip-ink: none;
     text-decoration-skip-ink: none;
     max-width: 369px;
-    color: #5c5c5c
+    color: #5c5c5c;
+    text-align: justify !important;
 }
 
 .feedback__body-block-form {
