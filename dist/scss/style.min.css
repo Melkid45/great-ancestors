@@ -4794,7 +4794,7 @@ a {
 
 @media(max-width: 780px) {
     html {
-        font-size: .2564102564vw
+        font-size: calc(100vw / 390)
     }
 
     .desk {
@@ -5255,7 +5255,7 @@ a {
 
     .article__body img {
         width: 100%;
-        height: 140rem;
+        height: 100rem;
         border-radius: 15rem
     }
 
@@ -7397,7 +7397,8 @@ a {
         text-underline-position: from-font;
         -webkit-text-decoration-skip-ink: none;
         text-decoration-skip-ink: none;
-        color: #5c5c5c
+        color: #5c5c5c;
+        text-align: justify;
     }
 
     .review {
@@ -7596,5 +7597,11 @@ a {
     .review__body .splide__slide-images img {
         width: 66rem;
         height: 66rem
+    }
+}
+@media (max-width: 400px) and (max-height: 700px) {
+    .header__mobile-body{
+        padding-top: 0;
+        gap: 16rem;
     }
 }
